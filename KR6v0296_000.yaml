@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0296/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 唐邕刻經記
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0095.xml
+    old_id: I01n0095
+hash: sha256:b872a19ff6bcd7ccbbcc6bd53f345c9a8f475bc699ab5396cb1dc872fe6c1564

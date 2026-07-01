@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6v0296/I/v1
+canonical_location: https://kanripo.org/bkk/KR6v0296/I/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 唐邕刻經記
+  identifiers:
+    krp: KR6v0296
+    cbeta: I01n0095
+    cbeta_old_id: I01n0095
+    authorityid: CA0008230
+    json_key: I0095
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0095.xml
+    old_id: I01n0095
+  edition:
+    short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0296_000-I.yaml, hash: 'sha256:b872a19ff6bcd7ccbbcc6bd53f345c9a8f475bc699ab5396cb1dc872fe6c1564'}
+  - {seq: 1, filename: KR6v0296_001-I.yaml, hash: 'sha256:553a798e5223d8e1fcf1a3dd55aa8deead52434a4c459b25c7e8c41b33b0e67d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0296_000-I.markers.yaml, hash: 'sha256:2fe79e035e962acc8b27f6f9ce6c5f0540ebe2669c87c5a9b48dbec0fcb37c24'}
+  - {seq: 1, role: markers, filename: assets/KR6v0296_001-I.markers.yaml, hash: 'sha256:fb7c4c7d4d58af948f24ebbeeb8800e7b727fa9ed7cad5a015c6755993d0f2ee'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0296_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 664
+  label: 唐邕刻經記
+  type: juan
+  level: 1
+hash: sha256:4788e5a27ea3168fffb3fae116ab2a495e35c129124cac4ef2144c72ecc8c2f2

@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0296/v1
+canonical_location: https://kanripo.org/bkk/KR6v0296/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 唐邕刻經記
+  identifiers:
+    alt_id:
+    - I01n0095
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0095.xml
+    old_id: I01n0095
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0296_000.yaml, hash: 'sha256:b872a19ff6bcd7ccbbcc6bd53f345c9a8f475bc699ab5396cb1dc872fe6c1564'}
+  - {seq: 1, filename: KR6v0296_001.yaml, hash: 'sha256:9824de1dba1898b1855073dac8c4d37955a7b61bba042d66e7f859bda0c789c9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0296_001.markers.yaml, hash: 'sha256:16bd31b5a24da858be2e4cb2983bc495477a8587fb5cb84cb3be227d6acb1fb4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0296_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 664
+  label: 唐邕刻經記
+  type: juan
+  level: 1
+hash: sha256:126c1d5e6c2d5869285ed058adaa27afb9523b60ec7b41837f9b52930c1d187b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
