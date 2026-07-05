@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0296_000.yaml, hash: 'sha256:b872a19ff6bcd7ccbbcc6bd53f345c9a8f475bc699ab5396cb1dc872fe6c1564'}
-  - {seq: 1, filename: KR6v0296_001.yaml, hash: 'sha256:9824de1dba1898b1855073dac8c4d37955a7b61bba042d66e7f859bda0c789c9'}
+  - {seq: 1, filename: KR6v0296_001.yaml, hash: 'sha256:553a798e5223d8e1fcf1a3dd55aa8deead52434a4c459b25c7e8c41b33b0e67d'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0296_001.markers.yaml, hash: 'sha256:16bd31b5a24da858be2e4cb2983bc495477a8587fb5cb84cb3be227d6acb1fb4'}
+  - {seq: 0, role: markers, filename: assets/KR6v0296_000.markers.yaml, hash: 'sha256:8241c61086b2a22a2e5e7723152167a67afcfd9650eab9a6f451c9ec020e861a'}
+  - {seq: 1, role: markers, filename: assets/KR6v0296_001.markers.yaml, hash: 'sha256:f2c79c585626340784276da983b9c2d94848747eef066f88fe785077e7f5e571'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 唐邕刻經記
   type: juan
   level: 1
-hash: sha256:126c1d5e6c2d5869285ed058adaa27afb9523b60ec7b41837f9b52930c1d187b
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:50770e82ee4af3599041d1ac4d8e6d6b41dc5f088665c3468b3889ff15e67bfe
