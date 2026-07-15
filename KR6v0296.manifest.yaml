@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0296/v1
 canonical_location: https://kanripo.org/bkk/KR6v0296/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 唐邕刻經記
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0296_000.yaml, hash: 'sha256:b872a19ff6bcd7ccbbcc6bd53f345c9a8f475bc699ab5396cb1dc872fe6c1564'}
-  - {seq: 1, filename: KR6v0296_001.yaml, hash: 'sha256:553a798e5223d8e1fcf1a3dd55aa8deead52434a4c459b25c7e8c41b33b0e67d'}
+  - {seq: 1, filename: KR6v0296_001.yaml, hash: 'sha256:d3dc806a56e45024bc523f41d535cadfa53aeefda91d55b21736a5bdf5e08b0b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0296_000.markers.yaml, hash: 'sha256:8241c61086b2a22a2e5e7723152167a67afcfd9650eab9a6f451c9ec020e861a'}
-  - {seq: 1, role: markers, filename: assets/KR6v0296_001.markers.yaml, hash: 'sha256:f2c79c585626340784276da983b9c2d94848747eef066f88fe785077e7f5e571'}
+  - {seq: 1, role: markers, filename: assets/KR6v0296_001.markers.yaml, hash: 'sha256:6c3f71ae68da6325731f341903f267c2523c0581b42515c09b314577ea3a93f5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 唐邕刻經記
   type: juan
   level: 1
-hash: sha256:50770e82ee4af3599041d1ac4d8e6d6b41dc5f088665c3468b3889ff15e67bfe
+hash: sha256:eb76a4b522aac266387b4bef5ed644b9f93760f172aadea724dc0c4b4f892e03
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
